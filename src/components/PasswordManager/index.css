@@ -1,0 +1,137 @@
+.app-container {
+  background-color: #9ba9eb;
+  padding: 30px;
+}
+.app-logo {
+  height: 50px;
+  width: 120px;
+  background-size: cover;
+}
+.InputPasswords-container {
+  background-color: #5763a5;
+  padding: 10px;
+  border-radius: 5px;
+  height: 400px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+.savedPassWords-container {
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 5px;
+  height: 400px;
+  width: 90%;
+}
+.password-form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #454f84;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 36%;
+}
+.form-input-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #c3caea;
+  align-items: center;
+  padding-left: 15px;
+  width: 90%;
+  margin-bottom: 5px;
+}
+.search-input-container {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  height: 24px;
+  padding: 8px;
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+.form-search-input {
+  border: none;
+  outline: none;
+}
+.website-image {
+  height: 16px;
+  width: 16px;
+}
+.separator {
+  border: 1px solid #94a3b8;
+  height: 18px;
+}
+.Add-button {
+  color: #fff;
+  background-color: #0b69ff;
+  padding: 5px;
+  align-self: flex-end;
+  border: none;
+  outline: none;
+  width: 50px;
+  cursor: pointer;
+}
+.form-input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #c3caea;
+}
+.password-manager {
+  height: 350px;
+  width: 400px;
+  background-size: cover;
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.passwordCount-heading {
+  color: #fff;
+  margin-right: 5px;
+}
+.saved-passwords-count {
+  display: flex;
+  align-items: center;
+}
+.checkBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.showpasswords {
+  color: #fff;
+  font-size: 18px;
+  font-family: Roboto;
+}
+.count {
+  border: 1px solid #c3caea;
+  border-radius: 40px;
+  padding: 2px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.passwords-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.no-password-img {
+  height: 200px;
+  width: 250px;
+  background-size: cover;
+}
